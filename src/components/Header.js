@@ -12,8 +12,7 @@ export default function Header() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    const data = { text };
-    dispatch(added(data));
+    dispatch(added(text));
   }
   return (
     <div>
